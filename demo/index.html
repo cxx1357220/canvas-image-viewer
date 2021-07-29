@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="color-scheme" content="light dark">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>demo</title>
+    <!-- <script src="https://unpkg.com/vconsole/dist/vconsole.min.js"></script> -->
+    <script src="../dist/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="../dist/index.css" />
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #app {
+            width: 100vw;
+            height: 600px;
+        }
+    </style>
+    <div id="app"></div>
+    <script>
+        new ImageViewer(document.getElementById('app'), {
+            src: 'https://www.w3school.com.cn/i/eg_tulip.jpg'
+        })
+        // var vConsole = new window.VConsole();
+    </script>
+
+</body>
+
+</html>

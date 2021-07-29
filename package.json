@@ -1,0 +1,24 @@
+{
+  "name": "canvas-image-viewer",
+  "version": "0.0.1",
+  "description": "image viewer",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "515302174@qq.com",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "less": "^4.1.1",
+    "less-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
